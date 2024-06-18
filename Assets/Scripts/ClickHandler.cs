@@ -8,7 +8,7 @@ public class ClickHandler : MonoBehaviour
     public TextMeshProUGUI scoreText;
     public TextMeshProUGUI coinText;
     private int score;
-    private int coin;
+    public int coin;
 
     private PlayerInput playerInput;
     private InputAction clickAction;

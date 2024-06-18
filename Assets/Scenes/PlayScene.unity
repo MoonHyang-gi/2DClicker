@@ -276,6 +276,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scoreText: {fileID: 1012642773}
   coinText: {fileID: 1735877462}
+  coin: 0
 --- !u!114 &103485851
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3786,6 +3787,7 @@ GameObject:
   m_Component:
   - component: {fileID: 846457335}
   - component: {fileID: 846457336}
+  - component: {fileID: 846457337}
   m_Layer: 5
   m_Name: Slots
   m_TagString: Untagged
@@ -3848,6 +3850,22 @@ MonoBehaviour:
   m_Spacing: {x: 15, y: 15}
   m_Constraint: 0
   m_ConstraintCount: 2
+--- !u!114 &846457337
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 846457334}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa96f333a684b8a41a1222462870c9c0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shopItems:
+  - itemName: Blue
+    itemPrice: 3000
+    itemButton: {fileID: 165058212}
 --- !u!1 &874549120
 GameObject:
   m_ObjectHideFlags: 0
